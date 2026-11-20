@@ -1,15 +1,15 @@
 /*
  * Site configuration. Add real links/IDs only when available.
- * APK link can point to a GitHub Release asset or another trusted HTTPS download.
+ * APK link points to the official GitHub Release asset.
  */
 window.MEHRABI_CONFIG = {
-  apkUrl: "",                 // Example: "https://github.com/OWNER/Mehrabi-Website/releases/download/v1.0.0/mehrabi.apk"
-  version: "",                // Example: "1.0.15"
-  apkSize: "",                // Example: "73 MB"
+  apkUrl: "https://github.com/Ahmadamjad11/Mehrabi-Website/releases/download/v1.0.15/application-2c614bc7-5c13-4201-af0c-77a15e4eb1cc.apk",
+  version: "1.0.15",
+  apkSize: "73.3 MB",
   privacyUrl: "https://ahmadamjad11.github.io/Mehrabi/",
-  contactUrl: "mailto:mehrabi.app@gmail.com", // Replace if needed
-  googlePlayUrl: "",          // Add after Google Play publication
-  adsenseClient: "",          // Add only after AdSense approval, e.g. "ca-pub-..."
+  contactUrl: "mailto:mehrabi.app@gmail.com",
+  googlePlayUrl: "",
+  adsenseClient: "",
   adsenseSlots: {
     top: "",
     bottom: ""
