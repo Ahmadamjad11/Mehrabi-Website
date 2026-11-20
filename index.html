@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2035">
+  <meta name="description" content="محرابي — رفيقك في طريق الخير. اكتشف المساجد والمصليات، واعرف اتجاه القبلة بسهولة.">
+  <title>محرابي | الموقع الرسمي</title>
+  <link rel="icon" href="assets/mehrabi-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="top-ad ad-slot" aria-label="مساحة إعلانية">
+    <span data-ar="مساحة إعلانية" data-en="Advertisement">مساحة إعلانية</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Mehrabi home">
+      <img src="assets/mehrabi-mark.svg" alt="" class="brand-mark">
+      <span class="brand-name">محرابي</span>
+    </a>
+    <nav class="nav">
+      <a href="#features" data-ar="المميزات" data-en="Features">المميزات</a>
+      <a href="#about" data-ar="عن محرابي" data-en="About">عن محرابي</a>
+      <a href="#download" data-ar="التحميل" data-en="Download">التحميل</a>
+    </nav>
+    <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language">EN</button>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span><span data-ar="رفيقك في طريق الخير" data-en="Your companion on the path to good">رفيقك في طريق الخير</span></div>
+        <h1 data-ar="كل ما تحتاجه<br>لرحلتك إلى <em>الخير</em>" data-en="Everything you need<br>on your <em>journey to good</em>">كل ما تحتاجه<br>لرحلتك إلى <em>الخير</em></h1>
+        <p data-ar="اكتشف المساجد والمصليات من حولك، وتعرّف على اتجاه القبلة، واجعل الوصول إلى مكان الصلاة أسهل." data-en="Discover nearby mosques and prayer spaces, find the Qibla direction, and make every prayer journey easier.">اكتشف المساجد والمصليات من حولك، وتعرّف على اتجاه القبلة، واجعل الوصول إلى مكان الصلاة أسهل.</p>
+        <div class="hero-actions" id="download">
+          <a class="download-button" id="apkButton" href="#" target="_blank" rel="noopener">
+            <span class="download-icon">↓</span>
+            <span><strong data-ar="حمّل محرابي للأندرويد" data-en="Download Mehrabi for Android">حمّل محرابي للأندرويد</strong><small data-ar="ملف APK · تحميل مباشر" data-en="APK file · Direct download">ملف APK · تحميل مباشر</small></span>
+          </a>
+          <a class="secondary-button" href="#features" data-ar="اكتشف المميزات" data-en="Explore features">اكتشف المميزات</a>
+        </div>
+        <div class="version-line"><span class="version-dot"></span><span id="versionLabel">Android · APK</span><span class="separator">•</span><span data-ar="الموقع الرسمي لمحرابي" data-en="Official Mehrabi website">الموقع الرسمي لمحرابي</span></div>
+      </div>
+      <div class="hero-art" aria-label="Mehrabi app illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="app-card">
+          <div class="app-card-top"><span class="tiny-brand"><img src="assets/mehrabi-mark.svg" alt=""> محرابي</span><span class="signal">● ● ●</span></div>
+          <div class="compass-wrap"><div class="compass-ring"><div class="compass-needle"></div><span class="north">N</span></div></div>
+          <div class="app-card-title" data-ar="اتجاه القبلة" data-en="Qibla direction">اتجاه القبلة</div>
+          <div class="app-card-sub" data-ar="وجهتك إلى الصلاة" data-en="Your direction to prayer">وجهتك إلى الصلاة</div>
+          <div class="mini-stat-row"><div><b>◎</b><span data-ar="القبلة" data-en="Qibla">القبلة</span></div><div><b>⌖</b><span data-ar="المساجد" data-en="Mosques">المساجد</span></div><div><b>◷</b><span data-ar="الصلاة" data-en="Prayer">الصلاة</span></div></div>
+        </div>
+        <div class="floating-chip chip-top">✦ <span data-ar="رفيقك للصلاة" data-en="Your prayer companion">رفيقك للصلاة</span></div>
+        <div class="floating-chip chip-bottom">⌖ <span data-ar="أماكن قريبة منك" data-en="Places near you">أماكن قريبة منك</span></div>
+      </div>
+    </section>
+
+    <div class="mid-ad ad-slot"><span data-ar="مساحة إعلانية" data-en="Advertisement">مساحة إعلانية</span></div>
+
+    <section class="features section" id="features">
+      <div class="section-heading"><span class="section-kicker" data-ar="محرابي معك" data-en="MEHRABI WITH YOU">محرابي معك</span><h2 data-ar="طريق أسهل إلى <em>الخير</em>" data-en="A simpler way to <em>good</em>">طريق أسهل إلى <em>الخير</em></h2><p data-ar="أدوات عملية تساعدك في الوصول إلى مكان الصلاة ومعرفة اتجاه القبلة." data-en="Helpful tools to find prayer spaces and stay oriented toward the Qibla.">أدوات عملية تساعدك في الوصول إلى مكان الصلاة ومعرفة اتجاه القبلة.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌖</div><h3 data-ar="المساجد والمصليات" data-en="Mosques & prayer spaces">المساجد والمصليات</h3><p data-ar="اعثر على أماكن الصلاة القريبة منك وتعرّف على تفاصيلها." data-en="Find nearby prayer places and explore useful details about them.">اعثر على أماكن الصلاة القريبة منك وتعرّف على تفاصيلها.</p></article>
+        <article class="feature-card"><div class="feature-icon gold">✥</div><h3 data-ar="اتجاه القبلة" data-en="Qibla direction">اتجاه القبلة</h3><p data-ar="اعرف اتجاه القبلة باستخدام أدوات الاتجاه في التطبيق." data-en="Find the Qibla direction with the app's direction tools.">اعرف اتجاه القبلة باستخدام أدوات الاتجاه في التطبيق.</p></article>
+        <article class="feature-card"><div class="feature-icon blue">◷</div><h3 data-ar="مواقيت الصلاة" data-en="Prayer times">مواقيت الصلاة</h3><p data-ar="تابع مواقيت الصلاة وتذكّر مواعيدها." data-en="Keep track of prayer times and stay reminded.">تابع مواقيت الصلاة وتذكّر مواعيدها.</p></article>
+        <article class="feature-card"><div class="feature-icon">♡</div><h3 data-ar="أماكنك المفضلة" data-en="Your favorites">أماكنك المفضلة</h3><p data-ar="احتفظ بالأماكن التي تهمك لتصل إليها بسهولة." data-en="Save places that matter to you for quick access.">احتفظ بالأماكن التي تهمك لتصل إليها بسهولة.</p></article>
+      </div>
+    </section>
+
+    <section class="download-panel">
+      <div><span class="section-kicker" data-ar="ابدأ الآن" data-en="GET STARTED">ابدأ الآن</span><h2 data-ar="محرابي أقرب إليك" data-en="Mehrabi is closer than ever">محرابي أقرب إليك</h2><p data-ar="حمّل التطبيق وابدأ رحلتك." data-en="Download the app and get started.">حمّل التطبيق وابدأ رحلتك.</p></div>
+      <a class="download-button light" id="bottomApkButton" href="#" target="_blank" rel="noopener"><span class="download-icon">↓</span><span><strong data-ar="تحميل التطبيق" data-en="Download app">تحميل التطبيق</strong><small>Android APK</small></span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#"><img src="assets/mehrabi-mark.svg" alt="" class="brand-mark"><span class="brand-name">محرابي</span></a>
+    <div class="footer-links"><a id="privacyLink" href="#" data-ar="سياسة الخصوصية" data-en="Privacy policy">سياسة الخصوصية</a><a id="contactLink" href="#" data-ar="تواصل معنا" data-en="Contact us">تواصل معنا</a><a id="playLink" class="hidden" href="#" target="_blank" rel="noopener">Google Play</a></div>
+    <p>© <span id="year"></span> Mehrabi. <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved.">جميع الحقوق محفوظة.</span></p>
+  </footer>
+
+  <div class="bottom-ad ad-slot" id="bottomAd"><span data-ar="مساحة إعلانية" data-en="Advertisement">مساحة إعلانية</span><button id="closeAd" type="button" aria-label="Close ad placeholder">×</button></div>
+</body>
+</html>
