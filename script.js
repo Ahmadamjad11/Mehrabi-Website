@@ -65,9 +65,5 @@
   }
 
   document.getElementById("year").textContent = new Date().getFullYear();
-  document.getElementById("closeAd").addEventListener("click", () => {
-    document.getElementById("bottomAd").classList.add("hidden");
-    body.style.paddingBottom = "12px";
-  });
   setLanguage("ar");
 })();
